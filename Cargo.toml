@@ -1,0 +1,12 @@
+[package]
+name = "geo-ip"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+json = "*"
+wreq = { version = "*", features = ["full", "socks"] }
+tokio = { version = "*", features = ["full"] }
+clap = { version = "4.5.60", features = ["derive"] }
